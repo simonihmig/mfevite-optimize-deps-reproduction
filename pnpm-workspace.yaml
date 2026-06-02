@@ -1,0 +1,5 @@
+packages:
+  - 'packages/*'
+
+catalog:
+  '@module-federation/vite': '1.16.2'

@@ -1,0 +1,13 @@
+{
+  "name": "mfevite-optimize-deps-reproduction",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm --filter lit-* dev",
+    "build": "pnpm --filter lit-* build",
+    "preview": "pnpm --filter lit-* preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0"
+}
