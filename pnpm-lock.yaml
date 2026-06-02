@@ -28,6 +28,9 @@ importers:
       lit:
         specifier: 'catalog:'
         version: 3.3.2
+      pkg-bar:
+        specifier: workspace:*
+        version: link:../pgk-bar
     devDependencies:
       '@module-federation/vite':
         specifier: 'catalog:'
@@ -38,6 +41,14 @@ importers:
       vite:
         specifier: 'catalog:'
         version: 7.1.5
+
+  packages/pgk-bar:
+    dependencies:
+      pkg-foo:
+        specifier: workspace:*
+        version: link:../pgk-foo
+
+  packages/pgk-foo: {}
 
   packages/remote:
     dependencies:

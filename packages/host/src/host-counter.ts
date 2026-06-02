@@ -1,10 +1,15 @@
-import { LitElement, css, html } from "lit";
-import { property, state } from "lit/decorators.js";
-import { classMap } from "lit/directives/class-map.js";
+import { LitElement, css, html } from 'lit';
+import { property, state } from 'lit/decorators.js';
+import { classMap } from 'lit/directives/class-map.js';
+
+// @ts-expect-error no types
+import { bar } from 'pkg-bar';
+
+bar();
 
 export class HostCounter extends LitElement {
   @property({ type: String })
-  label = "Counter";
+  label = 'Counter';
 
   @state()
   private count = 0;
@@ -37,6 +42,6 @@ export class HostCounter extends LitElement {
   `;
 }
 
-if (!customElements.get("host-counter")) {
-  customElements.define("host-counter", HostCounter);
+if (!customElements.get('host-counter')) {
+  customElements.define('host-counter', HostCounter);
 }

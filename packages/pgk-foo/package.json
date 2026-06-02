@@ -1,0 +1,7 @@
+{
+  "name": "pkg-foo",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

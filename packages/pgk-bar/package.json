@@ -1,0 +1,9 @@
+{
+  "name": "pkg-bar",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "pkg-foo": "workspace:*"
+  },
+  "devDependencies": {}
+}
