@@ -2,7 +2,7 @@ packages:
   - 'packages/*'
 
 catalog:
-  '@module-federation/vite': '1.16.12'
+  '@module-federation/vite': '1.18.1'
   vite: '7.3.5'
   lit: '3.3.2'
   typescript: '6.0.3'
