@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@module-federation/vite':
-      specifier: 1.18.1
-      version: 1.18.1
+      specifier: 1.18.2
+      version: 1.18.2
     lit:
       specifier: 3.3.2
       version: 3.3.2
@@ -34,7 +34,7 @@ importers:
     devDependencies:
       '@module-federation/vite':
         specifier: 'catalog:'
-        version: 1.18.1(typescript@6.0.3)(vite@7.3.5)
+        version: 1.18.2(typescript@6.0.3)(vite@7.3.5)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -58,7 +58,7 @@ importers:
     devDependencies:
       '@module-federation/vite':
         specifier: 'catalog:'
-        version: 1.18.1(typescript@6.0.3)(vite@7.3.5)
+        version: 1.18.2(typescript@6.0.3)(vite@7.3.5)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -257,8 +257,8 @@ packages:
   '@module-federation/third-party-dts-extractor@2.8.0':
     resolution: {integrity: sha512-nAMlr74OKIylkfRwlunOhytQbmsgb3gCqdXWnPQhG+ZtqWXGELLfMT4a1Q1ht3cS+sRpWj2SZRqK2M7GadI6tA==}
 
-  '@module-federation/vite@1.18.1':
-    resolution: {integrity: sha512-oaqJVVUguW1kFIEdYh95/yUCh9vU38MZ4mEVZdvEsKtmZbSsggSeP+xHHZqtiFdjFL/MFjOdgzWIZ4n0dDbjww==}
+  '@module-federation/vite@1.18.2':
+    resolution: {integrity: sha512-UECxR14P6OLkUvMsmO8GoTNe4U/ojwyyKfAQYScnEUNME3P8tpzuktDVUlkKEhhvv1+uMdKHIp9lKlDSpR6NLQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -643,7 +643,7 @@ snapshots:
 
   '@module-federation/third-party-dts-extractor@2.8.0': {}
 
-  '@module-federation/vite@1.18.1(typescript@6.0.3)(vite@7.3.5)':
+  '@module-federation/vite@1.18.2(typescript@6.0.3)(vite@7.3.5)':
     dependencies:
       '@module-federation/dts-plugin': 2.8.0(typescript@6.0.3)
       '@module-federation/runtime': 2.8.0
